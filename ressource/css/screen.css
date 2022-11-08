@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html {
+    background-color: #464646;
+    font-family: 'Rubik', sans-serif;
+}
+
+.caseRatio {
+    padding: 3rem;
+    margin-top: 10rem;
+    background-color: aquamarine;
+    margin-right: 40%;
+    margin-left: 40%;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+}
+
+#ratioCoco {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.input {
+    border-radius: 25px;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+}
+
+#submitButton {
+    transition: 250ms;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+    transition: 250ms;
+    transform: scale(1.025);
+    box-shadow: 15px 15px 19px 1px rgb(0 0 0 / 20%);
+}
+
+#reset {
+    margin-top: 3%;
+    margin-left: 91%;
+    width: 4rem;
+    padding: 1rem;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+    transition: 250ms;
+}
+
+#reset:hover {
+    cursor: pointer;
+    transition: 250ms;
+    transform: scale(1.025);
+    box-shadow: 15px 15px 19px 1px rgb(0 0 0 / 20%);
+}
+
+.coco {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 25px;
+}
